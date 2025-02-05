@@ -2,6 +2,16 @@
 Changelog for package puma_motor_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+1.0.1 (2024-10-09)
+------------------
+* Added LICENSE per package.
+* Contributors: Tony Baltovski
+
+1.0.0 (2024-07-25)
+------------------
+* updated msgs to foxy
+* Contributors: joe28965
+
 0.3.1 (2020-11-23)
 ------------------
 

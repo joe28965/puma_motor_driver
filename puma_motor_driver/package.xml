@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>puma_motor_driver</name>
-  <version>0.3.1</version>
-  <description>A ROS2 driver for Puma single-channel motor control board.</description>
+  <version>1.0.1</version>
+  <description>A ROS driver for Puma single-channel motor control board.</description>
 
   <maintainer email="mpurvis@clearpathrobotics.com">Mike Purvis</maintainer>
   <license>BSD</license>
@@ -11,17 +11,14 @@
   <depend>diagnostic_updater</depend>
   <depend>puma_motor_msgs</depend>
   <depend>rclcpp</depend>
-  <depend>socketcan_interface</depend>
+  <depend>clearpath_socketcan_interface</depend>
   <depend>sensor_msgs</depend>
-  <depend>serial_driver</depend>
+  <!-- <depend>serial_driver</depend> -->
 
   <exec_depend>can-utils</exec_depend>
   <exec_depend>joy</exec_depend>
 
-  <!-- <test_depend>roslaunch</test_depend>
-  <test_depend>roslint</test_depend> -->
-	
-	<export>
-  	<build_type>ament_cmake</build_type>
+  <export>
+    <build_type>ament_cmake</build_type>
   </export>
 </package>
